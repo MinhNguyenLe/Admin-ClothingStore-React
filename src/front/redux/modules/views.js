@@ -149,8 +149,16 @@ export function enterSimpleTables(time: Date = format(new Date())) {
     leaveTime: null,
   };
 }
+export function enterCustomerManager(time: Date = format(new Date())) {
+  return {
+    type: ENTER_SIMPLE_TABLES_VIEW,
+    currentView: 'SimpleTables',
+    enterTime: time,
+    leaveTime: null,
+  };
+}
 
-export function leaveSimpleTables(time: Date = format(new Date())) {
+export function leaveCustomerManager(time: Date = format(new Date())) {
   return {
     type: LEAVE_SIMPLE_TABLES_VIEW,
     currentView: 'SimpleTables',

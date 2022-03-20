@@ -10,6 +10,8 @@ import { navigation } from '../../models';
 import MainRoutes from '../../routes/MainRoutes';
 import auth from '../../services/auth';
 import UserIMG from '../../img/user.jpg';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 // #endregion
 
 type Props = any;
@@ -94,6 +96,7 @@ function App({
       {/* <Footer /> */}
       {/* modals cannot be placed anywhere (avoid backdrop or modal placement issues) so all grouped in same component and outside .wrapper*/}
       <Modals />
+      <ToastContainer />
     </div>
   );
 }
