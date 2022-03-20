@@ -76,6 +76,11 @@ export const navigation = Object.freeze({
           faIconName: 'fa-eye',
         },
         {
+          name: 'Customer manager',
+          linkTo: '/general/customerManager',
+          faIconName: 'fa-user',
+        },
+        {
           name: 'Breadcrumb',
           linkTo: '/general/breadcrumb',
           faIconName: 'fa-bars',

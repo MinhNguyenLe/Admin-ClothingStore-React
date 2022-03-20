@@ -14,6 +14,7 @@ import GeneralConnected from '../views/general';
 import NotificationsConnected from '../views/notifications';
 import PaginationViewConnected from '../views/pagination';
 import SimpleTablesConnected from '../views/simpleTables';
+import CustomerManagerConnected from '../views/customerManager';
 import StatViewConnected from '../views/stat';
 import StatsCardConnected from '../views/statsCard';
 import StripedProgressBarConnected from '../views/stripedProgressBar';
@@ -42,6 +43,7 @@ export const MainRoutes = () => (
 
     <Route exact path="/general" component={GeneralConnected} />
     <Route path="/general/breadcrumb" component={BreadcrumbViewConnected} />
+    <Route path="/general/customerManager" component={CustomerManagerConnected} />
     <Route path="/general/stat" component={StatViewConnected} />
     <Route
       path="/general/basicProgressBars"

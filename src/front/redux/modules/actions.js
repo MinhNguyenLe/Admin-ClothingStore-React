@@ -19,6 +19,8 @@ export {
   leaveHome,
   enterSimpleTables,
   leaveSimpleTables,
+  enterCustomerManager,
+  leaveCustomerManager,
   enterBasicElements,
   leaveBasicElements,
   enterGeneral,
